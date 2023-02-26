@@ -1,3 +1,47 @@
-body{
-    background-image: url("images/bgp.jpg");
+
+*{
+    margin: 0;
+}
+
+.banner-container{
+    background-image: url("../images/banner/banner2.png");
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    
+}
+
+
+.banner-box{
+    padding-top: 180px;
+    padding-bottom: 200px;
+    padding-right: 100px;
+    margin-left: 300px;
+    width: 50%;
+    text-align: right;
+   
+
+}
+
+.banner-title{
+    font-size: 80px;
+    padding: 20px 80px;
+}
+
+.banner-detail{
+    padding: 20px 80px;
+    font-size: 30px;
+}
+
+
+.banner-button{
+    padding: 10px 10px;
+    border: none;
+    font-size: 30px;
+    margin-left: 80px;
+    margin-right: 100px;
+    background-color: blue;
+    border-radius: 5px;
+
+    color: white;
 }

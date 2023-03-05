@@ -7,14 +7,14 @@
     background-image: url("../images/banner/banner2.png");
     display: flex;
     justify-content: flex-end;
-    align-items: flex-end;
+    align-items: flex-end; 
     
 }
 
 
 .banner-box{
-    padding-top: 180px;
-    padding-bottom: 200px;
+    padding-top: 130px;
+    padding-bottom: 130px;
     padding-right: 100px;
     margin-left: 300px;
     width: 50%;
@@ -35,13 +35,186 @@
 
 
 .banner-button{
-    padding: 10px 10px;
+    padding: 10px 15px;
     border: none;
     font-size: 30px;
     margin-left: 80px;
     margin-right: 100px;
-    background-color: blue;
+    background-image: linear-gradient( to left, cadetblue, salmon,orange, white, red, green, yellow, black, gray);
     border-radius: 5px;
+    color: rgb(235, 241, 241);
+}
 
-    color: white;
+/* .section-2{
+    background-color: aquamarine;
+} */
+
+
+.parson{
+    padding-top: 150px;
+    display: flex;
+    gap: 50px;
+}
+
+
+.failures{
+    margin-top: 190px;
+}
+
+
+
+.failures-title{
+    font-size: 80px;
+    padding: 20px 80px;
+}
+
+
+.failur-detail{
+    padding: 20px 80px;
+    font-size: 30px;
+}
+
+ul{
+   list-style-type: circle;
+    list-style-position: outside;
+    list-style-image: url(../images/icons/checked.png);
+    margin-left: 45px;
+    color: goldenrod;
+    
+
+
+}
+ul li{
+    font-size: 20px;
+    /* padding-left: 35px; */
+
+}
+
+
+.plans-container{
+    padding: 80px 180px;
+}
+
+.plans-heading{
+    text-align: center;
+    padding-bottom: 80px;
+    font-size: 60px;
+}
+.my-plans{
+    display: flex;
+    justify-content: space-around;
+}
+
+.web-title{
+    padding-top: 30px;
+    padding-right: 45px;
+    font-size: 30px;
+}
+
+.web-detail{
+    padding-top: 15px;
+    font-size: 25px;
+}
+
+.mindset{
+    background-image: url(../images/bgp.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 180px;
+    margin: 200px;
+    background-image: linear-gradient(to left, rgba(20, 197, 120, 0.418), rgba(227, 243, 5, 0), rgb(90, 41, 0));
+    
+}
+
+.mindset-title{
+    padding-top: 30px;
+    padding-right: 500px;
+    padding-left: 30px;
+    font-size: 40px;
+}
+
+.mindset-btn{
+    margin-left: 30px;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: none;
+
+}
+
+.section-five{
+    background-color: rgb(238, 201, 243);
+    height: 500px;
+}
+
+
+.footer{
+    display: flex;
+    gap: 50px;
+    padding-top: 80px;
+   
+}
+
+.future{
+    padding-left: 150px;
+    padding-right: 300px;
+    
+}
+
+
+.future-heading{
+    padding-bottom: 25px;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.future-dtail{
+    padding-bottom:25px;
+    font-weight: bold;
+    font-size:20px;
+}
+.phone{
+    padding-bottom:25px;
+    font-weight: bold;
+    font-size:20px;
+}
+
+.social-icon{
+    display: flex;
+    gap: 20px;
+   
+
+}
+
+
+.subscribe{
+    padding-right: 250px;
+       padding-left: 100px;
+    
+}
+
+.sub-heading{
+    margin-top: 30px;
+    padding-bottom:25px;
+    font-weight: bold;
+    font-size:50px;
+}
+
+#email{
+margin-top: 20px;
+padding:15px;
+font-weight: bold;
+font-size:15px;
+border-radius: 10px;
+}
+
+
+.sub-btn{
+    padding:15px;
+    margin-top: 40px;
+    font-weight: bold;
+    font-size:20px;
+    border-radius: 10px;
+    background-color: white;
+    color: rgb(235, 14, 143);
 }
